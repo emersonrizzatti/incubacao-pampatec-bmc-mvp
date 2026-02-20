@@ -6,17 +6,17 @@ Bem-vindo à jornada de pré-incubação do **PampaTec**! Este repositório é o
 
 ## 📋 Como Começar (Para Empreendedores)
 
-> 📖 **Primeira vez usando GitLab ou Antigravity?** Siga o [Tutorial do GitLab e Antigravity](Tutorial_GitLab_Antigravity.md) com o passo a passo completo para iniciantes.
+> 📖 **Primeira vez usando GitHub ou Antigravity?** Siga o [Tutorial do GitHub e Antigravity](Tutorial_GitHub_Antigravity.md) com o passo a passo completo para iniciantes.
 
 ### 1. Pré-requisitos
 - [Google Antigravity](https://gemini.google.com/antigravity) instalado no seu computador
-- Acesso ao [GitLab do PampaTec](https://gitlab.unipampa.edu.br/pampatec)
+- Acesso ao [GitHub do PampaTec](https://github.com/emersonrizzatti)
 - Git instalado no seu computador
 
 ### 2. Clone o repositório do seu time
 ```bash
-git clone https://gitlab.unipampa.edu.br/pampatec/<nome-do-seu-time>.git
-cd <nome-do-seu-time>
+git clone https://github.com/emersonrizzatti/incubacao-pampatec-bmc-mvp.git
+cd incubacao-pampatec-bmc-mvp
 ```
 
 ### 3. Abra no Antigravity
@@ -53,56 +53,51 @@ O arquivo **`PROGRESSO_BMC.md`** é atualizado automaticamente pelo consultor a 
 - 📝 Resumo das decisões tomadas em cada etapa
 - 🔍 Análise Crítica Final com diagnóstico do modelo
 
-**Mentores:** Acesse o `PROGRESSO_BMC.md` de cada time diretamente no GitLab para acompanhar o progresso.
+**Mentores:** Acesse o `PROGRESSO_BMC.md` de cada time diretamente no GitHub para acompanhar o progresso.
 
 ---
 
-## 👥 Gestão de Times no GitLab
+## 👥 Gestão de Times no GitHub
 
 Este repositório funciona como **template**. Cada time recebe uma cópia independente (fork) para trabalhar.
 
-### 📐 Estrutura no GitLab
+### 📐 Estrutura no GitHub
 
 ```
-gitlab.unipampa.edu.br/pampatec/
-├── 📦 bmc-template              ← este repositório (template base)
-├── 📦 time-startup-alpha         ← fork do template
-├── 📦 time-startup-beta          ← fork do template
-├── 📦 time-startup-gamma         ← fork do template
+github.com/emersonrizzatti/
+├── 📦 incubacao-pampatec-bmc-template       ← este repositório (template base)
+├── 📦 time-startup-alpha                    ← fork do template
+├── 📦 time-startup-beta                     ← fork do template
+├── 📦 time-startup-gamma                    ← fork do template
 └── ...
 ```
 
 ### 🏗️ Como Criar o Repositório de um Novo Time (Para Mentores)
 
 #### Passo 1 — Hospedar o template (só na primeira vez)
-1. Acesse [gitlab.unipampa.edu.br/pampatec](https://gitlab.unipampa.edu.br/pampatec)
-2. Clique em **"New project"** → **"Create blank project"**
-3. Nome: `bmc-template`
-4. Visibilidade: **Internal** (visível para membros da instituição)
-5. Faça push de todos os arquivos deste repositório para lá:
+1. Acesse [github.com/new](https://github.com/new)
+2. Nome: `incubacao-pampatec-bmc-template`
+3. Visibilidade: **Public** ou **Private**
+4. Faça push de todos os arquivos deste repositório para lá:
    ```bash
    cd <pasta-deste-projeto>
    git init
-   git remote add origin https://gitlab.unipampa.edu.br/pampatec/bmc-template.git
+   git remote add origin https://github.com/emersonrizzatti/incubacao-pampatec-bmc-template.git
    git add .
    git commit -m "Template inicial BMC"
    git push -u origin main
    ```
 
 #### Passo 2 — Criar o repositório de cada time
-1. Acesse o projeto template: [gitlab.unipampa.edu.br/pampatec/bmc-template](https://gitlab.unipampa.edu.br/pampatec/bmc-template)
+1. Acesse o projeto template no GitHub.
 2. Clique em **"Fork"** (botão no canto superior direito)
-3. Em **"Project name"**, coloque o nome do time (ex: `time-startup-alpha`)
-4. Em **"Namespace"**, selecione **pampatec**
-5. Clique em **"Fork project"**
-6. No projeto criado, vá em **Settings** → **Members** → adicione os membros do time como **Developer**
+3. Em **"Repository name"**, coloque o nome do time (ex: `time-startup-alpha`)
+4. Clique em **"Create fork"**
+5. No projeto criado, vá em **Settings** → **Collaborators** → adicione os membros do time.
 
 #### Passo 3 — Acompanhar o progresso dos times
-- **Direto no GitLab:** Acesse `PROGRESSO_BMC.md` de cada projeto do time pelo navegador
-- **Visão geral:** Na página do grupo [pampatec](https://gitlab.unipampa.edu.br/pampatec), você vê todos os projetos e atividades recentes
-
-> [!TIP]
-> **Dica:** Use **Issues** no GitLab para marcar milestones de cada time. Crie labels como `etapa-1`, `etapa-2`, etc., para filtrar o progresso visualmente.
+- **Direto no GitHub:** Acesse `PROGRESSO_BMC.md` de cada projeto do time pelo navegador.
+- **Visão geral:** Na página do perfil ou organização, você vê todos os projetos e atividades recentes.
 
 ---
 
@@ -126,7 +121,7 @@ Ao final, o consultor realizará uma **Análise Crítica Final** com diagnóstic
 
 ## 🤝 Mentoria PampaTec
 
-Este projeto faz parte do programa de pré-incubação do **PampaTec - Incubadora Tecnológica da Unipampa**. Os mentores acompanham o progresso de cada time pelo arquivo `PROGRESSO_BMC.md` e pelo painel do GitLab.
+Este projeto faz parte do programa de pré-incubação do **PampaTec - Incubadora Tecnológica da Unipampa**. Os mentores acompanham o progresso de cada time pelo arquivo `PROGRESSO_BMC.md` e pelo painel do GitHub.
 
 **Dúvidas?** Fale com seu mentor ou abra uma **Issue** no repositório do seu time.
 

@@ -1,4 +1,4 @@
-# Tutorial do GitLab e Antigravity
+# Tutorial do GitHub e Antigravity
 
 ## 📋 Pré-requisitos (O que você precisa antes de começar)
 
@@ -16,18 +16,18 @@ Antes de iniciar o desenvolvimento do seu MVP, você precisará:
 
 ## 🚀 Passo a Passo Completo
 
-### **1. Criar sua conta no GitLab**
+### **1. Criar sua conta no GitHub**
 
-O GitLab é onde o código do seu sistema ficará armazenado de forma segura e organizada.
+O GitHub é onde o código do seu sistema ficará armazenado de forma segura e organizada.
 
-1. Acesse o GitLab da Unipampa: [gitlab.unipampa.edu.br](https://gitlab.unipampa.edu.br)
-2. Faça login com suas credenciais institucionais (ou clique em **"Register"** se precisar criar uma conta)
+1. Acesse o GitHub: [github.com](https://github.com)
+2. Faça login com sua conta (ou clique em **"Sign up"** se precisar criar uma conta)
 3. Confirme seu acesso
 4. Confirme seu email
 5. **Guarde suas credenciais** (usuário e senha) em local seguro
 
 > [!TIP]
-> O GitLab da Unipampa é o mesmo usado para projetos acadêmicos. Funciona como um "Google Drive" para código, com ferramentas de colaboração.
+> O GitHub é a plataforma de desenvolvimento mais usada no mundo. Funciona como um "Google Drive" para código, com ferramentas de colaboração.
 
 ---
 
@@ -123,28 +123,29 @@ Por padrão, a interface do Antigravity pode estar em inglês. Para mudar para p
 
 ---
 
-### **7. Conectar ao GitLab e criar o repositório**
+### **7. Conectar ao GitHub e criar o repositório**
 
-Agora vamos conectar o projeto ao GitLab para versionar o código.
+Agora vamos conectar o projeto ao GitHub para versionar o código.
 
 **Digite a seguinte mensagem no Antigravity:**
 
 ```
-Faça login na minha conta do GitLab (gitlab.unipampa.edu.br) e conecte este projeto ao repositório do meu time no grupo pampatec.
+Faça login na minha conta do GitHub e conecte este projeto ao repositório do meu time.
 ```
 
 O Antigravity vai:
-- Solicitar suas credenciais do GitLab (usuário e token de acesso pessoal)
+- Solicitar suas credenciais do GitHub (usuário e token de acesso pessoal)
 - Criar um repositório (projeto) novo com o nome da pasta
 - Conectar a pasta local ao repositório online
 
 > [!TIP]
-> **Como criar um Token de Acesso Pessoal no GitLab:**
-> 1. Acesse [gitlab.unipampa.edu.br/-/user_settings/personal_access_tokens](https://gitlab.unipampa.edu.br/-/user_settings/personal_access_tokens)
-> 2. Dê um nome ao token (ex: "Antigravity")
-> 3. Selecione os escopos: `api`, `read_repository`, `write_repository`
-> 4. Clique em **Create personal access token**
-> 5. **Copie e salve o token** — ele será mostrado apenas uma vez!
+> **Como criar um Token de Acesso Pessoal (Classic) no GitHub:**
+> 1. Acesse [github.com/settings/tokens](https://github.com/settings/tokens)
+> 2. Clique em **Generate new token (classic)**
+> 3. Dê um nome ao token (ex: "Antigravity")
+> 4. Selecione os escopos: `repo`, `admin:repo_hook`, `gist`
+> 5. Clique em **Generate token**
+> 6. **Copie e salve o token** — ele será mostrado apenas uma vez!
 
 > [!CAUTION]
-> **Nunca compartilhe seu token de acesso com outras pessoas.** Ele funciona como uma senha e dá acesso ao seu GitLab.
+> **Nunca compartilhe seu token de acesso com outras pessoas.** Ele funciona como uma senha e dá acesso ao seu GitHub.
